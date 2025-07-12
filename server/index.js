@@ -246,9 +246,15 @@ const io = new Server(server, {
       'http://localhost:3001',
       'https://your-frontend-domain.vercel.app', // Replace with your actual Vercel domain
       /\.vercel\.app$/, // Allow all Vercel subdomains
+      /\.onrender\.com$/, // Allow all Render subdomains
+      /\.railway\.app$/, // Allow all Railway subdomains
+      /\.herokuapp\.com$/, // Allow all Heroku subdomains
+      // Allow all origins in production for better compatibility
+      process.env.NODE_ENV === 'production' ? true : false
     ],
-    methods: ["GET", "POST"],
-    credentials: true
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    credentials: true,
+    allowedHeaders: ["Content-Type", "Authorization"]
   },
 });
 
