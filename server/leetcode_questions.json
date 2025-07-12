@@ -1,0 +1,1089 @@
+[
+  {
+    "title": "Find maximum and minimum element",
+    "description": "Given an array of integers, find the maximum and minimum element.",
+    "difficulty": "easy",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,4,5]", "output": "max:5,min:1"},
+      {"input": "[-1,0,7,3]", "output": "max:7,min:-1"}
+    ]
+  },
+  {
+    "title": "Calculate sum and average of elements",
+    "description": "Given an array of numbers, calculate the sum and average of its elements.",
+    "difficulty": "easy",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,4,5]", "output": "sum:15,avg:3"},
+      {"input": "[10,20,30]", "output": "sum:60,avg:20"}
+    ]
+  },
+  {
+    "title": "Count even and odd numbers",
+    "description": "Given an array of integers, count the number of even and odd numbers.",
+    "difficulty": "easy",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,4,5]", "output": "even:2,odd:3"},
+      {"input": "[2,4,6,8]", "output": "even:4,odd:0"}
+    ]
+  },
+  {
+    "title": "Remove duplicates from sorted array",
+    "description": "Given a sorted array, remove the duplicates in-place and return the new length.",
+    "difficulty": "easy",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,1,2,2,3,4,4]", "output": "[1,2,3,4]"},
+      {"input": "[0,0,1,1,1,2,2,3,3,4]", "output": "[0,1,2,3,4]"}
+    ]
+  },
+  {
+    "title": "Reverse array",
+    "description": "Given an array, reverse the array in-place.",
+    "difficulty": "easy",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,4,5]", "output": "[5,4,3,2,1]"},
+      {"input": "[10,20,30]", "output": "[30,20,10]"}
+    ]
+  },
+  {
+    "title": "Two Sum",
+    "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.",
+    "difficulty": "easy",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[2,7,11,15], 9", "output": "[0,1]"}
+    ]
+  },
+  {
+    "title": "Reverse Integer",
+    "description": "Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range, return 0.",
+    "difficulty": "medium",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "123", "output": "321"}
+    ]
+  },
+  {
+    "title": "Median of Two Sorted Arrays",
+    "description": "Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.",
+    "difficulty": "hard",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,3], [2]", "output": "2.0"}
+    ]
+  },
+  {
+    "title": "Left rotate / right rotate array",
+    "description": "Given an array, perform left or right rotation by k positions.",
+    "difficulty": "medium",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,4,5], k=2, direction=left", "output": "[3,4,5,1,2]"},
+      {"input": "[1,2,3,4,5], k=2, direction=right", "output": "[4,5,1,2,3]"}
+    ]
+  },
+  {
+    "title": "Second largest/smallest element",
+    "description": "Find the second largest and second smallest element in an array.",
+    "difficulty": "medium",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,4,5]", "output": "secondLargest:4,secondSmallest:2"},
+      {"input": "[10,20,30,40]", "output": "secondLargest:30,secondSmallest:20"}
+    ]
+  },
+  {
+    "title": "Move all zeroes to end",
+    "description": "Move all zeroes in the array to the end while maintaining the order of non-zero elements.",
+    "difficulty": "medium",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[0,1,0,3,12]", "output": "[1,3,12,0,0]"},
+      {"input": "[1,0,2,0,3]", "output": "[1,2,3,0,0]"}
+    ]
+  },
+  {
+    "title": "Merge two sorted arrays",
+    "description": "Merge two sorted arrays into a single sorted array.",
+    "difficulty": "medium",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,3,5], [2,4,6]", "output": "[1,2,3,4,5,6]"},
+      {"input": "[0,2,4], [1,3,5]", "output": "[0,1,2,3,4,5]"}
+    ]
+  },
+  {
+    "title": "Check if array is sorted",
+    "description": "Check if the given array is sorted in non-decreasing order.",
+    "difficulty": "medium",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,4,5]", "output": "true"},
+      {"input": "[5,3,2,1]", "output": "false"}
+    ]
+  },
+  {
+    "title": "Find subarray with given sum",
+    "description": "Given an array and a sum, find a subarray that adds up to the given sum.",
+    "difficulty": "hard",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,7,5], sum=12", "output": "[2,3,7]"},
+      {"input": "[1,4,20,3,10,5], sum=33", "output": "[20,3,10]"}
+    ]
+  },
+  {
+    "title": "Longest subarray with 0 sum",
+    "description": "Find the length of the longest subarray with sum 0.",
+    "difficulty": "hard",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[15,-2,2,-8,1,7,10,23]", "output": "5"},
+      {"input": "[1,2,-2,4,-4]", "output": "4"}
+    ]
+  },
+  {
+    "title": "Trapping Rain Water",
+    "description": "Given n non-negative integers representing an elevation map, compute how much water it can trap after raining.",
+    "difficulty": "hard",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[0,1,0,2,1,0,1,3,2,1,2,1]", "output": "6"},
+      {"input": "[4,2,0,3,2,5]", "output": "9"}
+    ]
+  },
+  {
+    "title": "Maximum product subarray",
+    "description": "Find the contiguous subarray within an array which has the largest product.",
+    "difficulty": "hard",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[2,3,-2,4]", "output": "6"},
+      {"input": "[-2,0,-1]", "output": "0"}
+    ]
+  },
+  {
+    "title": "Sliding Window maximum",
+    "description": "Given an array and an integer k, find the maximum for each and every contiguous subarray of size k.",
+    "difficulty": "hard",
+    "topic": "Arrays",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,3,-1,-3,5,3,6,7], k=3", "output": "[3,3,5,5,6,7]"},
+      {"input": "[9, 7, 2, 4, 6, 8, 2, 1, 5], k=4", "output": "[9, 7, 6, 8, 8, 8]"}
+    ]
+  },
+  {
+    "title": "Reverse a string",
+    "description": "Given a string, reverse the string.",
+    "difficulty": "easy",
+    "topic": "Strings",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "hello", "output": "olleh"},
+      {"input": "world", "output": "dlrow"}
+    ]
+  },
+  {
+    "title": "Check palindrome",
+    "description": "Check if the given string is a palindrome.",
+    "difficulty": "easy",
+    "topic": "Strings",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "madam", "output": "true"},
+      {"input": "hello", "output": "false"}
+    ]
+  },
+  {
+    "title": "Count vowels/consonants",
+    "description": "Count the number of vowels and consonants in a string.",
+    "difficulty": "easy",
+    "topic": "Strings",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "hello", "output": "vowels:2,consonants:3"},
+      {"input": "aeiou", "output": "vowels:5,consonants:0"}
+    ]
+  },
+  {
+    "title": "Remove duplicate characters",
+    "description": "Remove duplicate characters from a string.",
+    "difficulty": "easy",
+    "topic": "Strings",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "programming", "output": "progamin"},
+      {"input": "aabbcc", "output": "abc"}
+    ]
+  },
+  {
+    "title": "Toggle case of characters",
+    "description": "Toggle the case of each character in a string (lowercase to uppercase and vice versa).",
+    "difficulty": "easy",
+    "topic": "Strings",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "Hello", "output": "hELLO"},
+      {"input": "WorLD", "output": "wORld"}
+    ]
+  },
+  {
+    "title": "Longest word in a sentence",
+    "description": "Given a sentence, find the longest word in it.",
+    "difficulty": "medium",
+    "topic": "Strings",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "The quick brown fox", "output": "quick"},
+      {"input": "I love programming", "output": "programming"}
+    ]
+  },
+  {
+    "title": "Check anagram",
+    "description": "Check if two strings are anagrams of each other.",
+    "difficulty": "medium",
+    "topic": "Strings",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "listen, silent", "output": "true"},
+      {"input": "hello, world", "output": "false"}
+    ]
+  },
+  {
+    "title": "First non-repeating character",
+    "description": "Find the first non-repeating character in a string.",
+    "difficulty": "medium",
+    "topic": "Strings",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "leetcode", "output": "l"},
+      {"input": "aabbccde", "output": "d"}
+    ]
+  },
+  {
+    "title": "Compress string (e.g., a2b1c5a3)",
+    "description": "Compress a string using the counts of repeated characters (e.g., aabcccccaaa -> a2b1c5a3).",
+    "difficulty": "medium",
+    "topic": "Strings",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "aabcccccaaa", "output": "a2b1c5a3"},
+      {"input": "abc", "output": "a1b1c1"}
+    ]
+  },
+  {
+    "title": "Print all permutations",
+    "description": "Print all permutations of a given string.",
+    "difficulty": "medium",
+    "topic": "Strings",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "abc", "output": "abc,acb,bac,bca,cab,cba"},
+      {"input": "ab", "output": "ab,ba"}
+    ]
+  },
+  {
+    "title": "Longest Palindromic Substring",
+    "description": "Given a string, find the longest palindromic substring.",
+    "difficulty": "hard",
+    "topic": "Strings",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "babad", "output": "bab"},
+      {"input": "cbbd", "output": "bb"}
+    ]
+  },
+  {
+    "title": "Wildcard pattern matching",
+    "description": "Given a string and a pattern containing wildcards ('?' and '*'), determine if the string matches the pattern.",
+    "difficulty": "hard",
+    "topic": "Strings",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "aa, a", "output": "false"},
+      {"input": "aa, *", "output": "true"},
+      {"input": "cb, ?a", "output": "false"},
+      {"input": "adceb, *a*b", "output": "true"}
+    ]
+  },
+  {
+    "title": "Minimum insertions to make palindrome",
+    "description": "Find the minimum number of insertions needed to make a string a palindrome.",
+    "difficulty": "hard",
+    "topic": "Strings",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "ab", "output": "1"},
+      {"input": "aebcbda", "output": "2"}
+    ]
+  },
+  {
+    "title": "Regular expression matching",
+    "description": "Given a string and a pattern, implement regular expression matching with support for '.' and '*'.",
+    "difficulty": "hard",
+    "topic": "Strings",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "aa, a", "output": "false"},
+      {"input": "aa, a*", "output": "true"},
+      {"input": "ab, .*", "output": "true"},
+      {"input": "mississippi, mis*is*p*." , "output": "false"}
+    ]
+  },
+  {
+    "title": "Star pyramids",
+    "description": "Print a pyramid pattern of stars for a given number of rows.",
+    "difficulty": "easy",
+    "topic": "Pattern Programs",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "3", "output": "  *\n ***\n*****"},
+      {"input": "4", "output": "   *\n  ***\n *****\n*******"}
+    ]
+  },
+  {
+    "title": "Number triangles",
+    "description": "Print a triangle pattern of numbers for a given number of rows.",
+    "difficulty": "easy",
+    "topic": "Pattern Programs",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "3", "output": "1\n12\n123"},
+      {"input": "4", "output": "1\n12\n123\n1234"}
+    ]
+  },
+  {
+    "title": "Alphabet patterns",
+    "description": "Print a pattern of alphabets for a given number of rows.",
+    "difficulty": "easy",
+    "topic": "Pattern Programs",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "3", "output": "A\nAB\nABC"},
+      {"input": "4", "output": "A\nAB\nABC\nABCD"}
+    ]
+  },
+  {
+    "title": "Floyd’s triangle",
+    "description": "Print Floyd’s triangle for a given number of rows.",
+    "difficulty": "easy",
+    "topic": "Pattern Programs",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "3", "output": "1\n2 3\n4 5 6"},
+      {"input": "4", "output": "1\n2 3\n4 5 6\n7 8 9 10"}
+    ]
+  },
+  {
+    "title": "Diamond pattern",
+    "description": "Print a diamond pattern of stars for a given number of rows.",
+    "difficulty": "medium",
+    "topic": "Pattern Programs",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "3", "output": "  *\n ***\n*****\n ***\n  *"},
+      {"input": "4", "output": "   *\n  ***\n *****\n*******\n *****\n  ***\n   *"}
+    ]
+  },
+  {
+    "title": "Pascal triangle",
+    "description": "Print Pascal's triangle for a given number of rows.",
+    "difficulty": "medium",
+    "topic": "Pattern Programs",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "3", "output": "1\n1 1\n1 2 1"},
+      {"input": "4", "output": "1\n1 1\n1 2 1\n1 3 3 1"}
+    ]
+  },
+  {
+    "title": "Butterfly pattern",
+    "description": "Print a butterfly pattern of stars for a given number of rows.",
+    "difficulty": "medium",
+    "topic": "Pattern Programs",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "3", "output": "*    *\n**  **\n******\n**  **\n*    *"},
+      {"input": "4", "output": "*      *\n**    **\n***  ***\n********\n***  ***\n**    **\n*      *"}
+    ]
+  },
+  {
+    "title": "Concentric square pattern",
+    "description": "Print a concentric square pattern of numbers for a given n.",
+    "difficulty": "hard",
+    "topic": "Pattern Programs",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "3", "output": "3 3 3 3 3\n3 2 2 2 3\n3 2 1 2 3\n3 2 2 2 3\n3 3 3 3 3"},
+      {"input": "2", "output": "2 2 2\n2 1 2\n2 2 2"}
+    ]
+  },
+  {
+    "title": "Spiral number matrix",
+    "description": "Print a spiral matrix of numbers for a given n x n.",
+    "difficulty": "hard",
+    "topic": "Pattern Programs",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "3", "output": "1 2 3\n8 9 4\n7 6 5"},
+      {"input": "4", "output": "1 2 3 4\n12 13 14 5\n11 16 15 6\n10 9 8 7"}
+    ]
+  },
+  {
+    "title": "Bubble Sort",
+    "description": "Sort an array using the bubble sort algorithm.",
+    "difficulty": "easy",
+    "topic": "Sorting and Searching",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[5, 1, 4, 2, 8]", "output": "[1,2,4,5,8]"},
+      {"input": "[3, 2, 1]", "output": "[1,2,3]"}
+    ]
+  },
+  {
+    "title": "Selection Sort",
+    "description": "Sort an array using the selection sort algorithm.",
+    "difficulty": "easy",
+    "topic": "Sorting and Searching",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[64, 25, 12, 22, 11]", "output": "[11,12,22,25,64]"},
+      {"input": "[3, 1, 2]", "output": "[1,2,3]"}
+    ]
+  },
+  {
+    "title": "Linear Search",
+    "description": "Search for an element in an array using linear search.",
+    "difficulty": "easy",
+    "topic": "Sorting and Searching",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,4,5], 3", "output": "2"},
+      {"input": "[10,20,30,40], 25", "output": "-1"}
+    ]
+  },
+  {
+    "title": "Binary Search",
+    "description": "Search for an element in a sorted array using binary search.",
+    "difficulty": "easy",
+    "topic": "Sorting and Searching",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,4,5], 4", "output": "3"},
+      {"input": "[10,20,30,40], 25", "output": "-1"}
+    ]
+  },
+  {
+    "title": "Insertion Sort",
+    "description": "Sort an array using the insertion sort algorithm.",
+    "difficulty": "medium",
+    "topic": "Sorting and Searching",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[12, 11, 13, 5, 6]", "output": "[5,6,11,12,13]"},
+      {"input": "[4, 3, 2, 10, 12, 1, 5, 6]", "output": "[1,2,3,4,5,6,10,12]"}
+    ]
+  },
+  {
+    "title": "Merge Sort",
+    "description": "Sort an array using the merge sort algorithm.",
+    "difficulty": "medium",
+    "topic": "Sorting and Searching",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[12, 11, 13, 5, 6, 7]", "output": "[5,6,7,11,12,13]"},
+      {"input": "[38, 27, 43, 3, 9, 82, 10]", "output": "[3,9,10,27,38,43,82]"}
+    ]
+  },
+  {
+    "title": "Count sort",
+    "description": "Sort an array using the count sort algorithm.",
+    "difficulty": "medium",
+    "topic": "Sorting and Searching",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[4,2,2,8,3,3,1]", "output": "[1,2,2,3,3,4,8]"},
+      {"input": "[1,4,1,2,7,5,2]", "output": "[1,1,2,2,4,5,7]"}
+    ]
+  },
+  {
+    "title": "Search in rotated array",
+    "description": "Search for an element in a rotated sorted array.",
+    "difficulty": "medium",
+    "topic": "Sorting and Searching",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[4,5,6,7,0,1,2], 0", "output": "4"},
+      {"input": "[4,5,6,7,0,1,2], 3", "output": "-1"}
+    ]
+  },
+  {
+    "title": "Quick Sort",
+    "description": "Sort an array using the quick sort algorithm.",
+    "difficulty": "hard",
+    "topic": "Sorting and Searching",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[10, 7, 8, 9, 1, 5]", "output": "[1,5,7,8,9,10]"},
+      {"input": "[4, 2, 6, 9, 2]", "output": "[2,2,4,6,9]"}
+    ]
+  },
+  {
+    "title": "Heap Sort",
+    "description": "Sort an array using the heap sort algorithm.",
+    "difficulty": "hard",
+    "topic": "Sorting and Searching",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[12, 11, 13, 5, 6, 7]", "output": "[5,6,7,11,12,13]"},
+      {"input": "[4, 10, 3, 5, 1]", "output": "[1,3,4,5,10]"}
+    ]
+  },
+  {
+    "title": "Median of two sorted arrays",
+    "description": "Find the median of two sorted arrays.",
+    "difficulty": "hard",
+    "topic": "Sorting and Searching",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,3], [2]", "output": "2.0"},
+      {"input": "[1,2], [3,4]", "output": "2.5"}
+    ]
+  },
+  {
+    "title": "Count frequency of elements",
+    "description": "Count the frequency of each element in an array.",
+    "difficulty": "easy",
+    "topic": "HashMap / HashSet / Frequency",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,2,3,3,3]", "output": "1:1,2:2,3:3"},
+      {"input": "[4,4,4,4]", "output": "4:4"}
+    ]
+  },
+  {
+    "title": "Find duplicate elements",
+    "description": "Find all duplicate elements in an array.",
+    "difficulty": "easy",
+    "topic": "HashMap / HashSet / Frequency",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,1,3,6,6]", "output": "1,3,6"},
+      {"input": "[1,2,3,4]", "output": ""}
+    ]
+  },
+  {
+    "title": "Find non-repeating elements",
+    "description": "Find all non-repeating elements in an array.",
+    "difficulty": "easy",
+    "topic": "HashMap / HashSet / Frequency",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,2,1,4]", "output": "3,4"},
+      {"input": "[5,5,5,5]", "output": ""}
+    ]
+  },
+  {
+    "title": "Majority element (> n/2 times)",
+    "description": "Find the element that appears more than n/2 times in the array.",
+    "difficulty": "medium",
+    "topic": "HashMap / HashSet / Frequency",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[3,3,4,2,4,4,2,4,4]", "output": "4"},
+      {"input": "[2,2,1,1,1,2,2]", "output": "2"}
+    ]
+  },
+  {
+    "title": "Group anagrams",
+    "description": "Group the given list of strings into anagrams.",
+    "difficulty": "medium",
+    "topic": "HashMap / HashSet / Frequency",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[eat,tea,tan,ate,nat,bat]", "output": "[eat,tea,ate],[tan,nat],[bat]"},
+      {"input": "[abc,bca,cab,xyz]", "output": "[abc,bca,cab],[xyz]"}
+    ]
+  },
+  {
+    "title": "Find missing and repeating number",
+    "description": "Given an array of size n containing numbers from 1 to n, one number is missing and one is repeating. Find both.",
+    "difficulty": "medium",
+    "topic": "HashMap / HashSet / Frequency",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[4,3,6,2,1,1]", "output": "missing:5,repeating:1"},
+      {"input": "[3,1,3]", "output": "missing:2,repeating:3"}
+    ]
+  },
+  {
+    "title": "Longest consecutive sequence",
+    "description": "Given an unsorted array, find the length of the longest consecutive elements sequence.",
+    "difficulty": "hard",
+    "topic": "HashMap / HashSet / Frequency",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[100, 4, 200, 1, 3, 2]", "output": "4"},
+      {"input": "[0,3,7,2,5,8,4,6,0,1]", "output": "9"}
+    ]
+  },
+  {
+    "title": "Subarray sum equals K (prefix sum + map)",
+    "description": "Given an array and an integer k, find the total number of continuous subarrays whose sum equals to k.",
+    "difficulty": "hard",
+    "topic": "HashMap / HashSet / Frequency",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,1,1], 2", "output": "2"},
+      {"input": "[1,2,3], 3", "output": "2"}
+    ]
+  },
+  {
+    "title": "Factorial",
+    "description": "Find the factorial of a given number using recursion.",
+    "difficulty": "easy",
+    "topic": "Recursion & Backtracking",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "5", "output": "120"},
+      {"input": "0", "output": "1"}
+    ]
+  },
+  {
+    "title": "Fibonacci",
+    "description": "Find the Nth Fibonacci number using recursion.",
+    "difficulty": "easy",
+    "topic": "Recursion & Backtracking",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "6", "output": "8"},
+      {"input": "0", "output": "0"}
+    ]
+  },
+  {
+    "title": "Sum of digits",
+    "description": "Find the sum of digits of a number using recursion.",
+    "difficulty": "easy",
+    "topic": "Recursion & Backtracking",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "1234", "output": "10"},
+      {"input": "0", "output": "0"}
+    ]
+  },
+  {
+    "title": "Print all subsets",
+    "description": "Print all subsets of a given set using recursion.",
+    "difficulty": "medium",
+    "topic": "Recursion & Backtracking",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3]", "output": "[],[1],[2],[3],[1,2],[1,3],[2,3],[1,2,3]"},
+      {"input": "[a,b]", "output": "[],[a],[b],[a,b]"}
+    ]
+  },
+  {
+    "title": "Power set",
+    "description": "Print the power set of a given set using recursion.",
+    "difficulty": "medium",
+    "topic": "Recursion & Backtracking",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2]", "output": "[],[1],[2],[1,2]"},
+      {"input": "[a,b,c]", "output": "[],[a],[b],[c],[a,b],[a,c],[b,c],[a,b,c]"}
+    ]
+  },
+  {
+    "title": "N-th Fibonacci using memoization",
+    "description": "Find the Nth Fibonacci number using recursion with memoization.",
+    "difficulty": "medium",
+    "topic": "Recursion & Backtracking",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "10", "output": "55"},
+      {"input": "20", "output": "6765"}
+    ]
+  },
+  {
+    "title": "N-Queens",
+    "description": "Solve the N-Queens problem and print all possible solutions for a given N.",
+    "difficulty": "hard",
+    "topic": "Recursion & Backtracking",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "4", "output": "2"},
+      {"input": "1", "output": "1"}
+    ]
+  },
+  {
+    "title": "Sudoku Solver",
+    "description": "Solve a given 9x9 Sudoku puzzle.",
+    "difficulty": "hard",
+    "topic": "Recursion & Backtracking",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[[5,3,0,0,7,0,0,0,0],[6,0,0,1,9,5,0,0,0],[0,9,8,0,0,0,0,6,0],[8,0,0,0,6,0,0,0,3],[4,0,0,8,0,3,0,0,1],[7,0,0,0,2,0,0,0,6],[0,6,0,0,0,0,2,8,0],[0,0,0,4,1,9,0,0,5],[0,0,0,0,8,0,0,7,9]]", "output": "solved"}
+    ]
+  },
+  {
+    "title": "Word Break Problem",
+    "description": "Given a string and a dictionary of words, determine if the string can be segmented into a space-separated sequence of dictionary words.",
+    "difficulty": "hard",
+    "topic": "Recursion & Backtracking",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "leetcode, [leet, code]", "output": "true"},
+      {"input": "applepenapple, [apple, pen]", "output": "true"},
+      {"input": "catsandog, [cats, dog, sand, and, cat]", "output": "false"}
+    ]
+  },
+  {
+    "title": "Rat in a Maze",
+    "description": "Find all possible paths for a rat to reach from source to destination in a maze.",
+    "difficulty": "hard",
+    "topic": "Recursion & Backtracking",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[[1,0,0,0],[1,1,0,1],[0,1,0,0],[1,1,1,1]]", "output": "2"}
+    ]
+  },
+  {
+    "title": "Insert at beginning/end",
+    "description": "Insert a node at the beginning and end of a singly linked list.",
+    "difficulty": "easy",
+    "topic": "Linked List",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3], insert 0 at beginning", "output": "[0,1,2,3]"},
+      {"input": "[1,2,3], insert 4 at end", "output": "[1,2,3,4]"}
+    ]
+  },
+  {
+    "title": "Delete a node",
+    "description": "Delete a node with a given value from a singly linked list.",
+    "difficulty": "easy",
+    "topic": "Linked List",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,4], delete 3", "output": "[1,2,4]"},
+      {"input": "[1,2,3,4], delete 1", "output": "[2,3,4]"}
+    ]
+  },
+  {
+    "title": "Traverse and print",
+    "description": "Traverse a singly linked list and print all elements.",
+    "difficulty": "easy",
+    "topic": "Linked List",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3]", "output": "1 2 3"},
+      {"input": "[4,5,6]", "output": "4 5 6"}
+    ]
+  },
+  {
+    "title": "Reverse a linked list",
+    "description": "Reverse a singly linked list.",
+    "difficulty": "medium",
+    "topic": "Linked List",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,4,5]", "output": "[5,4,3,2,1]"},
+      {"input": "[10,20,30]", "output": "[30,20,10]"}
+    ]
+  },
+  {
+    "title": "Detect loop (Floyd’s algorithm)",
+    "description": "Detect if a singly linked list has a loop using Floyd’s cycle-finding algorithm.",
+    "difficulty": "medium",
+    "topic": "Linked List",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,4,5] with loop", "output": "true"},
+      {"input": "[1,2,3,4,5] without loop", "output": "false"}
+    ]
+  },
+  {
+    "title": "Remove duplicates",
+    "description": "Remove duplicate elements from an unsorted singly linked list.",
+    "difficulty": "medium",
+    "topic": "Linked List",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,2,3,4,4,5]", "output": "[1,2,3,4,5]"},
+      {"input": "[1,1,1,1]", "output": "[1]"}
+    ]
+  },
+  {
+    "title": "Merge two sorted lists",
+    "description": "Merge two sorted singly linked lists and return the merged sorted list.",
+    "difficulty": "hard",
+    "topic": "Linked List",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,4], [1,3,4]", "output": "[1,1,2,3,4,4]"},
+      {"input": "[2,5,7], [3,11]", "output": "[2,3,5,7,11]"}
+    ]
+  },
+  {
+    "title": "LRU Cache",
+    "description": "Design and implement an LRU (Least Recently Used) Cache.",
+    "difficulty": "hard",
+    "topic": "Stacks & Queues",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "put(1,1), put(2,2), get(1), put(3,3), get(2)", "output": "1,-1"}
+    ]
+  },
+  {
+    "title": "Sliding Window Maximum",
+    "description": "Given an array and an integer k, find the maximum for each and every contiguous subarray of size k.",
+    "difficulty": "hard",
+    "topic": "Stacks & Queues",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,3,-1,-3,5,3,6,7], k=3", "output": "[3,3,5,5,6,7]"},
+      {"input": "[9, 7, 2, 4, 6, 8, 2, 1, 5], k=4", "output": "[9, 7, 6, 8, 8, 8]"}
+    ]
+  },
+  {
+    "title": "Largest Rectangle in Histogram",
+    "description": "Given an array representing the heights of bars in a histogram, find the area of the largest rectangle in the histogram.",
+    "difficulty": "hard",
+    "topic": "Stacks & Queues",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[2,1,5,6,2,3]", "output": "10"},
+      {"input": "[2,4]", "output": "4"}
+    ]
+  },
+  {
+    "title": "Inorder/Preorder/Postorder traversal",
+    "description": "Given a binary tree, print its inorder, preorder, and postorder traversals.",
+    "difficulty": "easy",
+    "topic": "Trees",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3]", "output": "inorder:2,1,3; preorder:1,2,3; postorder:2,3,1"},
+      {"input": "[4,2,5,1,3]", "output": "inorder:1,2,3,4,5; preorder:4,2,1,3,5; postorder:1,3,2,5,4"}
+    ]
+  },
+  {
+    "title": "Height of tree",
+    "description": "Find the height of a binary tree.",
+    "difficulty": "easy",
+    "topic": "Trees",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3]", "output": "2"},
+      {"input": "[1,2,null,3]", "output": "3"}
+    ]
+  },
+  {
+    "title": "Count nodes/leaves",
+    "description": "Count the total number of nodes and leaves in a binary tree.",
+    "difficulty": "easy",
+    "topic": "Trees",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,4,5]", "output": "nodes:5,leaves:2"},
+      {"input": "[1]", "output": "nodes:1,leaves:1"}
+    ]
+  },
+  {
+    "title": "Mirror of binary tree",
+    "description": "Convert a binary tree to its mirror tree.",
+    "difficulty": "medium",
+    "topic": "Trees",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3]", "output": "[1,3,2]"},
+      {"input": "[4,2,7,1,3,6,9]", "output": "[4,7,2,9,6,3,1]"}
+    ]
+  },
+  {
+    "title": "Diameter of tree",
+    "description": "Find the diameter (longest path) of a binary tree.",
+    "difficulty": "medium",
+    "topic": "Trees",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,4,5]", "output": "3"},
+      {"input": "[1,2]", "output": "1"}
+    ]
+  },
+  {
+    "title": "Level order traversal",
+    "description": "Print the level order traversal of a binary tree.",
+    "difficulty": "medium",
+    "topic": "Trees",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[3,9,20,null,null,15,7]", "output": "3 9 20 15 7"},
+      {"input": "[1]", "output": "1"}
+    ]
+  },
+  {
+    "title": "Lowest Common Ancestor (LCA)",
+    "description": "Find the lowest common ancestor of two nodes in a binary tree.",
+    "difficulty": "hard",
+    "topic": "Trees",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[3,5,1,6,2,0,8,null,null,7,4], 5, 1", "output": "3"},
+      {"input": "[3,5,1,6,2,0,8,null,null,7,4], 5, 4", "output": "5"}
+    ]
+  },
+  {
+    "title": "Serialize/Deserialize Binary Tree",
+    "description": "Serialize and deserialize a binary tree.",
+    "difficulty": "hard",
+    "topic": "Trees",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[1,2,3,null,null,4,5]", "output": "[1,2,3,null,null,4,5]"}
+    ]
+  },
+  {
+    "title": "Vertical order traversal",
+    "description": "Print the vertical order traversal of a binary tree.",
+    "difficulty": "hard",
+    "topic": "Trees",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "[3,9,8,4,0,1,7]", "output": "4 9 3 0 8 1 7"},
+      {"input": "[1,2,3,4,5,6,7]", "output": "4 2 1 5 6 3 7"}
+    ]
+  },
+  {
+    "title": "Check prime",
+    "description": "Check if a given number is prime.",
+    "difficulty": "easy",
+    "topic": "Maths & Numbers",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "7", "output": "true"},
+      {"input": "10", "output": "false"}
+    ]
+  },
+  {
+    "title": "Find GCD / LCM",
+    "description": "Find the GCD and LCM of two numbers.",
+    "difficulty": "easy",
+    "topic": "Maths & Numbers",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "12, 18", "output": "gcd:6,lcm:36"},
+      {"input": "7, 5", "output": "gcd:1,lcm:35"}
+    ]
+  },
+  {
+    "title": "Armstrong number",
+    "description": "Check if a number is an Armstrong number.",
+    "difficulty": "easy",
+    "topic": "Maths & Numbers",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "153", "output": "true"},
+      {"input": "123", "output": "false"}
+    ]
+  },
+  {
+    "title": "Palindrome number",
+    "description": "Check if a number is a palindrome.",
+    "difficulty": "easy",
+    "topic": "Maths & Numbers",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "121", "output": "true"},
+      {"input": "123", "output": "false"}
+    ]
+  },
+  {
+    "title": "Count digits in factorial",
+    "description": "Count the number of digits in n! (factorial of n).",
+    "difficulty": "medium",
+    "topic": "Maths & Numbers",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "5", "output": "3"},
+      {"input": "10", "output": "7"}
+    ]
+  },
+  {
+    "title": "Sieve of Eratosthenes",
+    "description": "Print all prime numbers up to n using the Sieve of Eratosthenes.",
+    "difficulty": "medium",
+    "topic": "Maths & Numbers",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "10", "output": "2 3 5 7"},
+      {"input": "20", "output": "2 3 5 7 11 13 17 19"}
+    ]
+  },
+  {
+    "title": "Check power of 2 / 3",
+    "description": "Check if a number is a power of 2 or 3.",
+    "difficulty": "medium",
+    "topic": "Maths & Numbers",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "8", "output": "power of 2"},
+      {"input": "27", "output": "power of 3"},
+      {"input": "10", "output": "neither"}
+    ]
+  },
+  {
+    "title": "Modular Exponentiation",
+    "description": "Compute (x^y) % p efficiently.",
+    "difficulty": "hard",
+    "topic": "Maths & Numbers",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "2, 5, 13", "output": "6"},
+      {"input": "3, 13, 7", "output": "5"}
+    ]
+  },
+  {
+    "title": "RSA Key Generator (Project-Level)",
+    "description": "Generate RSA public and private keys for given prime numbers (project-level).",
+    "difficulty": "hard",
+    "topic": "Maths & Numbers",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "p=3, q=11", "output": "public:(33,3), private:(33,7)"}
+    ]
+  },
+  {
+    "title": "Prime factorization in O(log n)",
+    "description": "Find the prime factorization of a number in O(log n) time.",
+    "difficulty": "hard",
+    "topic": "Maths & Numbers",
+    "javaTemplate": "class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Welcome to LiveCoder\");\n    }\n}",
+    "testCases": [
+      {"input": "60", "output": "2 2 3 5"},
+      {"input": "97", "output": "97"}
+    ]
+  }
+] 
